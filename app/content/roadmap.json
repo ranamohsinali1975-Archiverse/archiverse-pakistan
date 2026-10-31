@@ -1,0 +1,37 @@
+{
+  "_how_to": "Mirror of community/roadmap.md. Update 'actual' and 'updated' when the founder sets new numbers; never invent them.",
+  "phases": [
+    { "years": "2026–2027", "name": "Listen", "text": "A documented, evidence-backed map of the gaps in education and practice, built with the community and published openly." },
+    { "years": "2027–2030", "name": "Propose", "text": "Concrete proposals on curriculum, accreditation, building control and climate practice, tested in pilots with willing departments and firms." },
+    { "years": "2030–2040", "name": "Adopt", "text": "Proposals adopted by institutions; benchmarks against global peers published yearly." },
+    { "years": "2040–2047", "name": "Stand", "text": "Pakistani architecture education and practice recognised as globally comparable on named measures." }
+  ],
+  "fronts": [
+    { "key": "system", "name": "System", "assess": "Laws, regulation, building control, accreditation, enforcement, public safety.", "benchmarks": "India, Malaysia, UK, Turkey, Bangladesh" },
+    { "key": "syllabus", "name": "Syllabus", "assess": "B.Arch and M.Arch curricula, teaching methods, digital/BIM/AI, climate, practice readiness.", "benchmarks": "UNESCO–UIA Charter, RIBA validation, NAAB conditions, COA India" },
+    { "key": "organisations", "name": "Organisations", "assess": "IAP, PCATP, HEC, provincial authorities, UIA and CAA links: what they publish, enforce, review and correct.", "benchmarks": "RIBA, AIA, COA, LAM, UIA member obligations" },
+    { "key": "institutes", "name": "Institutes", "assess": "Architecture schools from Karachi (1954) and NCA (1958) to today: programmes, intake, faculty, outcomes, research.", "benchmarks": "QS/THE subject rankings; validated schools in the region" },
+    { "key": "professionals", "name": "Professionals", "assess": "Registered architects, graduates per year, employment, specialisation, export of services, ethics cases.", "benchmarks": "Architects per 100,000 population; CPD and licensing comparisons" }
+  ],
+  "milestones": [
+    { "year": "1947", "text": "Independence — the start of Pakistan's architecture journey as a country" },
+    { "year": "1954", "text": "First school of architecture, Karachi" },
+    { "year": "1957", "text": "Institute of Architects Pakistan founded" },
+    { "year": "1958", "text": "NCA architecture department" },
+    { "year": "1983", "text": "PCATP Ordinance" },
+    { "year": "2007", "text": "Pakistan Building Code" },
+    { "year": "2007–2025", "text": "HEC curricula: 2007-08, 2012-13, 2025" },
+    { "year": "2047", "text": "National centenary — where will the profession stand?" }
+  ],
+  "targets_as_of": "2026-10-31",
+  "targets_by": "2027-10-31",
+  "targets": [
+    { "metric": "Survey responses", "target": "500", "actual": "0", "updated": "2026-10-31" },
+    { "metric": "Debates run with a published outcome", "target": "12", "actual": "0", "updated": "2026-10-31" },
+    { "metric": "Institutions that responded on record", "target": "10", "actual": "0", "updated": "2026-10-31" },
+    { "metric": "Scorecards published (of 5 fronts)", "target": "5", "actual": "0", "updated": "2026-10-31" },
+    { "metric": "Proposals published with evidence", "target": "4", "actual": "0", "updated": "2026-10-31" },
+    { "metric": "Proposals adopted or piloted by an institution", "target": "1", "actual": "0", "updated": "2026-10-31" },
+    { "metric": "Corrections issued", "target": "tracked, no target", "actual": "0", "updated": "2026-10-31" }
+  ]
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Archiverse-Pakistan</title>
+<meta name="description" content="Archiverse-Pakistan member app: articles, debates, survey results and institution responses on the future of architecture education and practice in Pakistan. Learn. Question. Build.">
+<meta name="theme-color" content="#0e4a57">
+<meta name="color-scheme" content="light">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Archiverse">
+<meta property="og:title" content="Archiverse-Pakistan — Pakistan's architecture, redrawn.">
+<meta property="og:description" content="Articles, debates, survey results and institution responses. Learn. Question. Build.">
+<meta property="og:image" content="assets/icon-512.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#/" aria-label="Archiverse-Pakistan home">
+      <img src="assets/mark-512.png" alt="" width="36" height="36">
+      <span class="wordmark">ARCHIVERSE<small>PAKISTAN</small></span>
+    </a>
+    <nav class="desknav" aria-label="Main">
+      <a href="#/" data-nav="home">Home</a>
+      <a href="#/read" data-nav="read">Read</a>
+      <a href="#/debates" data-nav="debates">Debates</a>
+      <a href="#/institutions" data-nav="institutions">Institutions</a>
+      <a href="#/account" data-nav="account">Account</a>
+    </nav>
+    <div class="topbar-actions">
+      <button class="iconbtn" id="install-btn" hidden title="Install the app">Install</button>
+      <a class="iconbtn bell" href="#/notifications" id="bell" aria-label="Notifications">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+        <span class="badge" id="bell-count" hidden>0</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<div id="banner" class="banner" hidden></div>
+
+<main id="main" class="wrap" tabindex="-1">
+  <div class="loading">Loading…</div>
+</main>
+
+<nav class="tabbar" aria-label="Sections">
+  <a href="#/" data-nav="home"><span class="ico">⌂</span>Home</a>
+  <a href="#/read" data-nav="read"><span class="ico">¶</span>Read</a>
+  <a href="#/debates" data-nav="debates"><span class="ico">❝</span>Debates</a>
+  <a href="#/institutions" data-nav="institutions"><span class="ico">▦</span>Institutions</a>
+  <a href="#/account" data-nav="account"><span class="ico">●</span>Account</a>
+</nav>
+
+<div id="toasts" class="toasts" aria-live="polite"></div>
+
+<noscript><div class="wrap" style="padding:40px 20px">This app needs JavaScript. Please enable it, or read the articles on the <a href="../">Archiverse-Pakistan website</a>.</div></noscript>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "_how_to": "Add one object per video. 'youtube_id' is the part after v= in the YouTube link (e.g. https://www.youtube.com/watch?v=dQw4w9WgXcQ → dQw4w9WgXcQ). Newest first. Leave the list empty until the Archiverse channel has its first episode.",
+  "channel_url": "",
+  "videos": []
+}

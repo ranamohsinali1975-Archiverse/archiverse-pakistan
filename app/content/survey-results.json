@@ -1,0 +1,54 @@
+{
+  "_how_to": "When Survey Results Part 1 is approved, set published to true, fill 'responses', 'as_of' and the questions. Each question: id, title, type ('bar' or 'scale'), and data as [{label, value}]. Values are counts; the app shows percentages too. Numbers must come from the survey export — never estimates.",
+  "published": false,
+  "title": "What did your degree miss? — Survey results, part 1",
+  "as_of": "",
+  "responses": 0,
+  "summary": "",
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Which best describes you?",
+      "type": "bar",
+      "data": [
+        { "label": "Architecture student", "value": 0 },
+        { "label": "Graduate (0–3 years)", "value": 0 },
+        { "label": "Practising architect (3+ years)", "value": 0 },
+        { "label": "Educator / faculty", "value": 0 },
+        { "label": "Allied professional", "value": 0 },
+        { "label": "Other", "value": 0 }
+      ]
+    },
+    {
+      "id": "q6",
+      "title": "Which areas were weakest in your education? (up to 3)",
+      "type": "bar",
+      "data": [
+        { "label": "Construction detailing and materials", "value": 0 },
+        { "label": "Building codes, regulation and approvals", "value": 0 },
+        { "label": "Structures and services coordination", "value": 0 },
+        { "label": "BIM and digital tools", "value": 0 },
+        { "label": "Climate, energy and sustainability", "value": 0 },
+        { "label": "Business, fees, contracts and clients", "value": 0 },
+        { "label": "Site experience and supervision", "value": 0 },
+        { "label": "Research and writing", "value": 0 },
+        { "label": "History, theory and criticism", "value": 0 },
+        { "label": "Housing, urban design and the city", "value": 0 },
+        { "label": "Ethics and professional conduct", "value": 0 },
+        { "label": "None — it covered what I needed", "value": 0 }
+      ]
+    },
+    {
+      "id": "q7",
+      "title": "How ready did you feel on your first day of professional work? (1 = not at all, 5 = fully ready)",
+      "type": "scale",
+      "data": [
+        { "label": "1", "value": 0 },
+        { "label": "2", "value": 0 },
+        { "label": "3", "value": 0 },
+        { "label": "4", "value": 0 },
+        { "label": "5", "value": 0 }
+      ]
+    }
+  ]
+}
