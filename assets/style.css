@@ -159,3 +159,10 @@ footer .legal { grid-column: 1 / -1; border-top: 1px solid rgba(255,255,255,.15)
   nav a { margin: 0; }
   .nav-toggle { display: inline-block; }
 }
+
+/* Tables (standards pages) */
+/* Draft-only table style. Move to assets/style.css when published. */
+  .data-table { width: 100%; border-collapse: collapse; margin: 0 0 28px; font-size: .98rem; }
+  .data-table th, .data-table td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  .data-table th { font-family: var(--font-head); font-weight: 500; font-size: .85rem; letter-spacing: .06em; text-transform: uppercase; color: var(--teal); border-bottom: 2px solid var(--teal); }
+  .table-scroll { overflow-x: auto; }
